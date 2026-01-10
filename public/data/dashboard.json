@@ -1,0 +1,52 @@
+{
+  "meals": {
+    "breakfast": "Oatmeal with berries, scrambled eggs, and tea/coffee",
+    "lunch": "Chicken noodle soup, whole-grain roll, and fresh fruit",
+    "dinner": "Baked salmon, roasted vegetables, and mashed potatoes"
+  },
+  "events": [
+    {
+      "id": "evt-morning-stretch",
+      "date": "2026-01-10",
+      "time": "09:30",
+      "title": "Morning Stretch",
+      "location": "Wellness Room",
+      "description": "Gentle seated and standing stretches."
+    },
+    {
+      "id": "evt-bingo",
+      "date": "2026-01-10",
+      "time": "13:30",
+      "title": "Bingo",
+      "location": "Community Hall",
+      "description": "Prizes and plenty of laughs."
+    },
+    {
+      "id": "evt-movie",
+      "date": "2026-01-10",
+      "time": "18:30",
+      "title": "Movie Night",
+      "location": "Lounge",
+      "description": "Classic film with popcorn."
+    }
+  ],
+  "photos": [
+    {
+      "url": "/photos/photo-1.svg",
+      "alt": "Peaceful garden"
+    },
+    {
+      "url": "/photos/photo-2.svg",
+      "alt": "Cozy reading nook"
+    },
+    {
+      "url": "/photos/photo-3.svg",
+      "alt": "Community activities"
+    },
+    {
+      "url": "/photos/photo-4.svg",
+      "alt": "Sunny dining room"
+    }
+  ],
+  "updatedAt": "2026-01-10T00:00:00.000Z"
+}
