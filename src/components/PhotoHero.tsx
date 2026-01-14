@@ -96,7 +96,7 @@ export function PhotoHero({
         </div>
 
         {showCounter && safePhotos.length > 1 ? (
-          <div className="pointer-events-none absolute right-5 top-5 rounded-full bg-black/40 px-5 py-3 text-[26px] font-semibold text-white ring-1 ring-white/20 backdrop-blur-sm">
+          <div className="pointer-events-none absolute right-5 top-5 rounded-full bg-black/40 px-5 py-3 text-[26px] font-semibold text-white ring-1 ring-white/20">
             {index + 1} / {safePhotos.length}
           </div>
         ) : null}
