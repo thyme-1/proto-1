@@ -44,7 +44,7 @@ export function FocusOverlay({
           transition={{ duration: 0.45, ease: "easeOut" }}
         >
           {/* Soft backdrop for calm focus and contrast */}
-          <div className="absolute inset-0 bg-slate-950/65 backdrop-blur-sm" />
+          <div className="absolute inset-0 bg-slate-950/70" />
 
           <motion.div
             className="relative mx-auto flex h-full w-full max-w-[1400px] items-center justify-center overflow-auto px-6 py-10 md:px-10"
