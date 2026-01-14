@@ -16,8 +16,19 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px; /* Slightly larger base text for readability */
-  line-height: 1.4;
+  /* Resident-facing readability baseline: keep body text large everywhere. */
+  font-size: 28px;
+  line-height: 1.35;
+}
+
+/* Tablet/TV: larger tap targets and less accidental selection. */
+button,
+[role="button"] {
+  touch-action: manipulation;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
 }
 
 @keyframes fadeIn {
